@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -385,6 +387,52 @@
             transform: scale(1.2);
         }
 
+        /* Project Icons */
+        .project-icon {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            z-index: 1;
+        }
+
+        .project-icon .material-icons {
+            font-size: 24px;
+            color: var(--primary);
+        }
+
+        .icon-1 { top: 5%; left: 5%; animation: float-icon 3.2s ease-in-out infinite; }
+        .icon-2 { top: 5%; right: 5%; animation: bounce-icon 4.1s ease-in-out infinite 0.3s; }
+        .icon-3 { top: 20%; left: 2%; animation: float-icon 3.7s ease-in-out infinite 0.8s; }
+        .icon-4 { top: 20%; right: 2%; animation: bounce-icon 2.9s ease-in-out infinite 1.2s; }
+        .icon-5 { top: 35%; left: 5%; animation: float-icon 4.3s ease-in-out infinite 1.8s; }
+        .icon-6 { top: 35%; right: 5%; animation: bounce-icon 3.4s ease-in-out infinite 2.1s; }
+        .icon-7 { top: 50%; left: 2%; animation: float-icon 2.8s ease-in-out infinite 2.7s; }
+        .icon-8 { top: 50%; right: 2%; animation: bounce-icon 3.9s ease-in-out infinite 3.2s; }
+        .icon-9 { top: 65%; left: 5%; animation: float-icon 3.6s ease-in-out infinite 0.6s; }
+        .icon-10 { top: 65%; right: 5%; animation: bounce-icon 4.2s ease-in-out infinite 1.4s; }
+        .icon-11 { top: 80%; left: 2%; animation: float-icon 3.1s ease-in-out infinite 2.3s; }
+        .icon-12 { top: 80%; right: 2%; animation: bounce-icon 3.8s ease-in-out infinite 0.9s; }
+        .icon-13 { bottom: 5%; left: 5%; animation: float-icon 4.5s ease-in-out infinite 1.7s; }
+        .icon-14 { bottom: 5%; right: 5%; animation: bounce-icon 2.7s ease-in-out infinite 2.8s; }
+        .icon-15 { bottom: 20%; left: 2%; animation: float-icon 3.3s ease-in-out infinite 0.4s; }
+        .icon-16 { bottom: 20%; right: 2%; animation: bounce-icon 4.4s ease-in-out infinite 1.9s; }
+
+        @keyframes float-icon {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+
+        @keyframes bounce-icon {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
         @media (max-width: 768px) {
             .hero h1 {
                 font-size: 2.2rem;
@@ -403,6 +451,8 @@
             .phone-frame.right {
                 display: none;
             }
+
+            .project-icon { display: none; }
         }
     </style>
 
@@ -412,7 +462,7 @@
 <body>
     <header class="header">
         <a href="#home" style="text-decoration: none;">
-            <div class="logo"><span class="material-icons">wifi</span> WiFi Server Pro</div>
+            <div class="logo"><span class="material-icons">online_prediction</span> WiFi Server Pro</div>
         </a>
         <nav class="nav">
             <a href="#features">Features</a>
@@ -431,6 +481,24 @@
 
 
         <div class="mockup">
+            <!-- Project Icons -->
+            <div class="project-icon icon-1"><span class="material-icons">wifi</span></div>
+            <div class="project-icon icon-2"><span class="material-icons">cloud_upload</span></div>
+            <div class="project-icon icon-3"><span class="material-icons">security</span></div>
+            <div class="project-icon icon-4"><span class="material-icons">qr_code</span></div>
+            <div class="project-icon icon-5"><span class="material-icons">folder</span></div>
+            <div class="project-icon icon-6"><span class="material-icons">devices</span></div>
+            <div class="project-icon icon-7"><span class="material-icons">http</span></div>
+            <div class="project-icon icon-8"><span class="material-icons">lock</span></div>
+            <div class="project-icon icon-9"><span class="material-icons">download</span></div>
+            <div class="project-icon icon-10"><span class="material-icons">share</span></div>
+            <div class="project-icon icon-11"><span class="material-icons">storage</span></div>
+            <div class="project-icon icon-12"><span class="material-icons">network_check</span></div>
+            <div class="project-icon icon-13"><span class="material-icons">phone_android</span></div>
+            <div class="project-icon icon-14"><span class="material-icons">computer</span></div>
+            <div class="project-icon icon-15"><span class="material-icons">tablet</span></div>
+            <div class="project-icon icon-16"><span class="material-icons">router</span></div>
+
             <!-- Left frame -->
             <div class="phone-frame small left">
                 <img src="https://i.postimg.cc/d1gQ5rHW/Screenshot-20250824-012945.png" alt="App Screenshot">
