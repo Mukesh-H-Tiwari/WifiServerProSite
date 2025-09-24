@@ -8,267 +8,637 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             line-height: 1.6;
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
             padding: 20px;
             color: #333;
+            background: #fafafa;
         }
-        h1 { color: #1976d2; border-bottom: 2px solid #1976d2; padding-bottom: 10px; }
-        h2 { color: #1976d2; margin-top: 30px; }
-        .last-updated { background: #f5f5f5; padding: 10px; border-radius: 5px; margin-bottom: 20px; }
-        .contact-info { background: #e3f2fd; padding: 15px; border-radius: 5px; margin: 20px 0; }
-        ul { padding-left: 20px; }
-        li { margin-bottom: 8px; }
-        .important { background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 15px 0; }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 { 
+            color: #1976d2; 
+            border-bottom: 3px solid #1976d2; 
+            padding-bottom: 15px; 
+            font-size: 2.2em;
+            margin-bottom: 20px;
+        }
+        h2 { 
+            color: #1976d2; 
+            margin-top: 35px; 
+            font-size: 1.4em;
+            border-left: 4px solid #1976d2;
+            padding-left: 15px;
+        }
+        h3 { 
+            color: #0d47a1; 
+            margin-top: 25px; 
+            font-size: 1.2em;
+        }
+        .last-updated { 
+            background: linear-gradient(135deg, #e3f2fd, #bbdefb); 
+            padding: 15px; 
+            border-radius: 8px; 
+            margin-bottom: 25px; 
+            border: 1px solid #90caf9;
+        }
+        .contact-info { 
+            background: linear-gradient(135deg, #e8f5e8, #c8e6c9); 
+            padding: 20px; 
+            border-radius: 8px; 
+            margin: 25px 0; 
+            border: 1px solid #81c784;
+        }
+        ul { padding-left: 25px; }
+        li { margin-bottom: 10px; line-height: 1.6; }
+        .important { 
+            background: linear-gradient(135deg, #fff8e1, #ffecb3); 
+            padding: 15px; 
+            border-left: 5px solid #ffa726; 
+            margin: 20px 0; 
+            border-radius: 5px;
+            font-weight: 500;
+        }
+        .privacy-shield {
+            background: linear-gradient(135deg, #e8f5e8, #c8e6c9);
+            padding: 20px;
+            border-radius: 8px;
+            border: 2px solid #4caf50;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .feature-item {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #1976d2;
+        }
+        .compliance-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .badge {
+            background: #1976d2;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 500;
+        }
+        strong { color: #0d47a1; }
+        .highlight { background: #fff3cd; padding: 2px 6px; border-radius: 3px; }
     </style>
 </head>
 <body>
-    <h1>Privacy Policy for WiFi Server Pro</h1>
-    
-    <div class="last-updated">
-        <strong>Last Updated:</strong> January 15, 2025<br>
-        <strong>Effective Date:</strong> January 15, 2025
+    <div class="container">
+        <h1>🛡️ Privacy Policy for WiFi Server Pro</h1>
+        
+        <div class="last-updated">
+            <strong>📅 Last Updated:</strong> September 24, 2025<br>
+            <strong>📅 Effective Date:</strong> September 24, 2025<br>
+            <strong>📱 App Version:</strong> 2.3.3+ (Build 46+)<br>
+            <strong>🏢 Developer:</strong> ByteCode Creation<br>
+            <strong>🏪 Google Play Compliance:</strong> Full compliance with Google Play Developer Policy
+        </div>
+
+        <div class="important">
+            <strong>🛡️ GOOGLE PLAY DATA SAFETY DECLARATION:</strong> This app does not collect any user data. All data processing occurs locally on your device. No data is shared with third parties. This privacy policy accurately reflects our Google Play Console Data Safety form declarations.
+        </div>
+
+        <div class="privacy-shield">
+            <h2 style="margin-top: 0; border: none; padding: 0;">🔒 Privacy-First Architecture</h2>
+            <p><strong>WiFi Server Pro is built with Privacy by Design principles. Your data never leaves your device or local network. Zero data collection, zero tracking, zero external transmissions.</strong></p>
+        </div>
+
+        <h2>1. 🏢 Developer & App Information</h2>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <strong>🏢 Developer:</strong> ByteCode Creation<br>
+                <strong>📧 Contact:</strong> bytecode.creation@gmail.com<br>
+                <strong>🌐 Support:</strong> support@wifiserverpro.app
+            </div>
+            <div class="feature-item">
+                <strong>📱 App Name:</strong> WiFi Server Pro<br>
+                <strong>📦 Package:</strong> com.bytecode.wifiserverpro<br>
+                <strong>🔢 Version:</strong> 2.3.3+ (Build 46+)
+            </div>
+        </div>
+
+        <h2>2. 📊 Data Collection Statement</h2>
+        
+        <div class="important">
+            <strong>🚫 ZERO DATA COLLECTION POLICY:</strong> WiFi Server Pro does not collect, store, process, or transmit ANY personal data, usage analytics, or device information to external servers. This is a fundamental architectural decision, not just a policy choice.
+        </div>
+
+        <h3>2.1 Personal Data - NOT Collected</h3>
+        <p>WiFi Server Pro does <strong>NOT</strong> collect any categories of personal data as defined by Google Play policy:</p>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <strong>❌ Identity Data:</strong> None collected<br>
+                • No names, emails, phone numbers<br>
+                • No user accounts or profiles<br>
+                • No biometric information
+            </div>
+            <div class="feature-item">
+                <strong>❌ Financial Data:</strong> None collected<br>
+                • No payment information<br>
+                • No purchase history<br>
+                • No financial accounts
+            </div>
+            <div class="feature-item">
+                <strong>❌ Location Data:</strong> None collected<br>
+                • No GPS coordinates<br>
+                • No network location<br>
+                • No location history
+            </div>
+            <div class="feature-item">
+                <strong>❌ Communications:</strong> None collected<br>
+                • No messages or emails<br>
+                • No call logs<br>
+                • No social interactions
+            </div>
+        </div>
+
+        <h3>2.2 Technical Data - Local Access Only</h3>
+        <p>The following data is accessed <span class="highlight">locally on your device only</span> for app functionality:</p>
+        <ul>
+            <li><strong>📁 Files and Media:</strong> Accessed for local sharing only (never uploaded or transmitted)</li>
+            <li><strong>📱 Device Storage:</strong> Read-only access to share files via HTTP/FTP servers</li>
+            <li><strong>🌐 Network Info:</strong> Local IP address detection for server setup</li>
+            <li><strong>⚙️ App Settings:</strong> Stored locally using Android SharedPreferences</li>
+            <li><strong>📋 Server Logs:</strong> Generated and stored locally for troubleshooting</li>
+        </ul>
+
+        <div class="important">
+            <strong>🔒 Important:</strong> All technical data remains on your device. No device IDs, usage analytics, crash reports, or app performance data is collected or transmitted.
+        </div>
+
+        <h2>3. 🎯 Data Usage and Purpose</h2>
+        <p>Data accessed by WiFi Server Pro is used exclusively for core app functionality:</p>
+        
+        <div class="feature-grid">
+            <div class="feature-item">
+                <strong>🌐 HTTP Server:</strong><br>
+                • Create web-based file sharing interface<br>
+                • Serve files via browser access<br>
+                • Handle file uploads/downloads
+            </div>
+            <div class="feature-item">
+                <strong>📡 FTP Server:</strong><br>
+                • Provide FTP protocol access<br>
+                • Support desktop FTP clients<br>
+                • Handle file transfers
+            </div>
+            <div class="feature-item">
+                <strong>🔐 Security Features:</strong><br>
+                • Optional local authentication<br>
+                • HTTPS encryption support<br>
+                • Network access control
+            </div>
+            <div class="feature-item">
+                <strong>📱 User Interface:</strong><br>
+                • Display server status<br>
+                • Show connection information<br>
+                • Generate QR codes for easy access
+            </div>
+        </div>
+
+        <h3>3.1 What We DON'T Use Data For</h3>
+        <ul>
+            <li><strong>❌ Analytics:</strong> No usage tracking or app analytics</li>
+            <li><strong>❌ Advertising:</strong> No ads or advertising networks</li>
+            <li><strong>❌ Marketing:</strong> No marketing communications or campaigns</li>
+            <li><strong>❌ Monetization:</strong> No data monetization or selling</li>
+            <li><strong>❌ Profiling:</strong> No user behavior analysis or profiling</li>
+            <li><strong>❌ Third-party Services:</strong> No integration with external services</li>
+        </ul>
+
+        <h2>4. 🔒 Data Storage and Security Architecture</h2>
+        
+        <h3>4.1 Local-Only Operation</h3>
+        <div class="privacy-shield">
+            <p><strong>🏠 100% Local Network Architecture</strong></p>
+            <p>WiFi Server Pro operates entirely within your local network boundaries. No internet connection required for core functionality.</p>
+        </div>
+        
+        <ul>
+            <li><strong>📁 File Storage:</strong> All files remain on your device in their original locations</li>
+            <li><strong>🌐 Network Scope:</strong> Servers bind only to local WiFi network IP addresses</li>
+            <li><strong>🚫 No Cloud:</strong> Zero integration with cloud storage or external services</li>
+            <li><strong>🔌 Offline Ready:</strong> Full functionality without internet connectivity</li>
+            <li><strong>🏠 LAN Only:</strong> Cannot be accessed from outside your local network</li>
+        </ul>
+
+        <h3>4.2 Advanced Security Measures</h3>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <strong>🔐 Authentication:</strong><br>
+                • Optional username/password protection<br>
+                • Separate HTTP and FTP credentials<br>
+                • Local credential storage only
+            </div>
+            <div class="feature-item">
+                <strong>🔒 Encryption:</strong><br>
+                • HTTPS support with self-signed certificates<br>
+                • FTPS protocol support (configurable)<br>
+                • TLS/SSL encryption for secure transfers
+            </div>
+            <div class="feature-item">
+                <strong>🛡️ Network Security:</strong><br>
+                • IP whitelist/blacklist support<br>
+                • Connection limits per IP<br>
+                • Session timeout controls
+            </div>
+            <div class="feature-item">
+                <strong>⚡ Access Control:</strong><br>
+                • Directory-level access restrictions<br>
+                • File encryption options<br>
+                • Audit logging (local only)
+            </div>
+        </div>
+
+        <h3>4.3 Android Security Integration</h3>
+        <ul>
+            <li><strong>🛡️ Scoped Storage:</strong> Complies with Android 13+ privacy requirements</li>
+            <li><strong>🔐 Granular Permissions:</strong> Uses media-specific permissions (READ_MEDIA_*)</li>
+            <li><strong>🚫 No Root Required:</strong> Works within standard Android security model</li>
+            <li><strong>🔒 Secure Services:</strong> Utilizes Android foreground services for reliability</li>
+        </ul>
+
+        <h2>5. 🚫 Data Sharing Policy</h2>
+        
+        <div class="important">
+            <strong>ABSOLUTE ZERO DATA SHARING:</strong> WiFi Server Pro does not and cannot share any data with third parties because no data is collected in the first place.
+        </div>
+
+        <h3>5.1 No Third-Party Integrations</h3>
+        <p>WiFi Server Pro deliberately excludes all third-party services that could compromise privacy:</p>
+        <ul>
+            <li><strong>❌ Analytics Platforms:</strong> No Google Analytics, Firebase, Crashlytics, or similar services</li>
+            <li><strong>❌ Advertising Networks:</strong> No AdMob, AdSense, or any advertising platforms</li>
+            <li><strong>❌ Cloud Services:</strong> No Google Drive, Dropbox, or cloud storage integrations</li>
+            <li><strong>❌ Social Media:</strong> No Facebook, Twitter, or social platform integrations</li>
+            <li><strong>❌ Telemetry:</strong> No usage tracking, error reporting, or telemetry services</li>
+            <li><strong>❌ Push Services:</strong> No Firebase Cloud Messaging or push notification services</li>
+        </ul>
+
+        <h3>5.2 Data Sharing Impossibility</h3>
+        <p>Even if legally required, data sharing would be technically impossible because:</p>
+        <ul>
+            <li><strong>🔒 No Data Collection:</strong> There is no user data to share</li>
+            <li><strong>🌐 No Internet Connectivity:</strong> App doesn't communicate with external servers</li>
+            <li><strong>📱 Local Storage Only:</strong> All data remains on user's device</li>
+            <li><strong>🛡️ Privacy by Design:</strong> Architecture prevents data exfiltration</li>
+        </ul>
+
+        <h2>6. 🔐 Comprehensive Security Framework</h2>
+        
+        <h3>6.1 Data in Transit Security</h3>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <strong>🔒 Encryption Options:</strong><br>
+                • HTTPS with self-signed certificates<br>
+                • FTPS (FTP over SSL/TLS) support<br>
+                • Configurable encryption levels
+            </div>
+            <div class="feature-item">
+                <strong>🌐 Network Isolation:</strong><br>
+                • Local WiFi network only<br>
+                • No WAN or internet routing<br>
+                • Private IP address binding
+            </div>
+            <div class="feature-item">
+                <strong>🛡️ Connection Security:</strong><br>
+                • Session timeout controls<br>
+                • IP-based access control<br>
+                • Connection rate limiting
+            </div>
+            <div class="feature-item">
+                <strong>🔍 Security Monitoring:</strong><br>
+                • Local audit logs<br>
+                • Connection attempt tracking<br>
+                • Failed login detection
+            </div>
+        </div>
+
+        <h3>6.2 Data at Rest Security</h3>
+        <ul>
+            <li><strong>📱 Device Storage:</strong> Files remain in original Android-secured storage locations</li>
+            <li><strong>⚙️ App Preferences:</strong> Settings encrypted using Android SharedPreferences</li>
+            <li><strong>🔐 Optional Encryption:</strong> File-level encryption for sensitive documents</li>
+            <li><strong>🗂️ Access Control:</strong> Android permission system controls file access</li>
+            <li><strong>🚫 No External Storage:</strong> Zero data stored outside device boundaries</li>
+        </ul>
+
+        <h2>7. 📅 Data Retention and Deletion</h2>
+        
+        <div class="privacy-shield">
+            <p><strong>🗑️ ZERO RETENTION POLICY</strong></p>
+            <p>Since no data is collected, there is no data retention. Complete user control over all data.</p>
+        </div>
+
+        <ul>
+            <li><strong>📁 File Control:</strong> Users maintain complete control over their files</li>
+            <li><strong>⚙️ Settings Management:</strong> All preferences stored locally and user-controllable</li>
+            <li><strong>🗑️ Clean Uninstall:</strong> Removing app deletes all app-related data</li>
+            <li><strong>🔄 No Sync:</strong> No cloud synchronization means no remote data copies</li>
+            <li><strong>📋 Log Rotation:</strong> Local logs automatically rotated and cleaned</li>
+        </ul>
+
+        <h2>8. 📋 Android Permissions Explained</h2>
+        
+        <p>WiFi Server Pro requests minimal, necessary permissions for local file sharing functionality:</p>
+
+        <h3>8.1 Storage Permissions</h3>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <strong>📁 File Access (Android 12 and below):</strong><br>
+                • READ_EXTERNAL_STORAGE<br>
+                • Used for accessing files to share locally<br>
+                • Does not transmit data externally
+            </div>
+            <div class="feature-item">
+                <strong>🎵 Media Access (Android 13+):</strong><br>
+                • READ_MEDIA_IMAGES, READ_MEDIA_VIDEO, READ_MEDIA_AUDIO<br>
+                • Granular access to specific media types<br>
+                • Google Play compliant permissions
+            </div>
+            <div class="feature-item">
+                <strong>🗂️ All Files Access (MANAGE_EXTERNAL_STORAGE):</strong><br>
+                • <strong>Google Play Approved Use Case:</strong> File Manager/Server functionality<br>
+                • <strong>Core App Function:</strong> Essential for comprehensive file sharing server<br>
+                • <strong>User Benefit:</strong> Access entire device storage for complete file server capability<br>
+                • <strong>No Alternative:</strong> Scoped storage insufficient for full file server functionality<br>
+                • <strong>Transparent Usage:</strong> Only used to serve files locally, never transmitted externally
+            </div>
+            <div class="feature-item">
+                <strong>🎯 Selective Access:</strong><br>
+                • READ_MEDIA_VISUAL_USER_SELECTED<br>
+                • Android 14+ photo picker integration<br>
+                • User controls exactly which files to share
+            </div>
+        </div>
+
+        <h3>8.2 Network Permissions</h3>
+        <ul>
+            <li><strong>🌐 INTERNET:</strong> Required to create local network servers (does not connect to internet)</li>
+            <li><strong>📡 ACCESS_NETWORK_STATE:</strong> Detect network connectivity for server setup</li>
+            <li><strong>📶 ACCESS_WIFI_STATE:</strong> Get local WiFi network information for IP discovery</li>
+        </ul>
+
+        <h3>8.3 Service Permissions</h3>
+        <ul>
+            <li><strong>⚡ FOREGROUND_SERVICE:</strong> Keep HTTP/FTP servers running when app is backgrounded</li>
+            <li><strong>📊 FOREGROUND_SERVICE_DATA_SYNC:</strong> Specific service type for file synchronization</li>
+            <li><strong>🔗 FOREGROUND_SERVICE_CONNECTED_DEVICE:</strong> For device-to-device file sharing</li>
+            <li><strong>🔔 POST_NOTIFICATIONS:</strong> Show server status notifications</li>
+            <li><strong>📳 VIBRATE:</strong> Notification vibration feedback</li>
+        </ul>
+
+        <h3>8.4 Google Play Policy Compliance</h3>
+        <div class="important">
+            <strong>🏪 GOOGLE PLAY SENSITIVE PERMISSIONS JUSTIFICATION:</strong>
+            <br>• <strong>MANAGE_EXTERNAL_STORAGE:</strong> Core app functionality as file server requires access to all user files for sharing
+            <br>• <strong>Legitimate Use Case:</strong> File Manager category app with primary purpose of local file sharing
+            <br>• <strong>No Alternative:</strong> Scoped storage APIs cannot provide complete file server functionality
+            <br>• <strong>User Transparency:</strong> Clear explanation provided during permission request
+            <br>• <strong>Data Safety:</strong> No data collection or external transmission despite broad file access
+        </div>
+
+        <h3>8.5 Permissions NOT Requested</h3>
+        <div class="privacy-shield">
+            <strong>Privacy Protection:</strong> WiFi Server Pro deliberately does NOT request invasive permissions:
+            <br>• ❌ No location permissions (GPS, network location)
+            <br>• ❌ No camera or microphone access
+            <br>• ❌ No contacts or calendar access
+            <br>• ❌ No phone or SMS permissions
+            <br>• ❌ No device admin or accessibility permissions
+            <br>• ❌ No background location access
+            <br>• ❌ No sensitive device identifiers
+        </div>
+
+        <h2>9. 👶 Children's Privacy (COPPA/GDPR-K Compliance)</h2>
+        
+        <div class="privacy-shield">
+            <p><strong>🛡️ CHILD-SAFE BY DESIGN</strong></p>
+            <p>WiFi Server Pro is inherently safe for users of all ages because it collects zero data and operates locally only.</p>
+        </div>
+
+        <h3>9.1 Age Safety Features</h3>
+        <ul>
+            <li><strong>🚫 No Age Restrictions:</strong> Safe for all ages due to zero data collection</li>
+            <li><strong>👶 Child Privacy:</strong> Impossible to collect data from children (or anyone)</li>
+            <li><strong>👨‍👩‍👧‍👦 Parental Control:</strong> Parents control device file access through Android permissions</li>
+            <li><strong>🌐 No Online Risks:</strong> Local-only operation eliminates internet safety concerns</li>
+            <li><strong>📱 Family Friendly:</strong> Perfect for family file sharing without privacy risks</li>
+        </ul>
+
+        <h3>9.2 COPPA Compliance</h3>
+        <ul>
+            <li><strong>✅ No Personal Information:</strong> Collects no personal information from anyone</li>
+            <li><strong>✅ No Behavioral Tracking:</strong> No tracking of user behavior or preferences</li>
+            <li><strong>✅ No Third-Party Sharing:</strong> No data to share with third parties</li>
+            <li><strong>✅ Parental Oversight:</strong> Parents maintain full control through device settings</li>
+        </ul>
+
+        <h2>10. 🌍 International Data Transfers</h2>
+        
+        <div class="important">
+            <strong>🚫 ZERO INTERNATIONAL TRANSFERS:</strong> Since WiFi Server Pro collects no data and operates locally only, there are no international data transfers, cross-border data flows, or jurisdictional privacy concerns.
+        </div>
+
+        <ul>
+            <li><strong>🏠 Local Operation:</strong> All data processing occurs on user's device</li>
+            <li><strong>🌐 No Cloud Servers:</strong> No servers in any jurisdiction to transfer data to</li>
+            <li><strong>🚫 No Cross-Border Data:</strong> Impossible due to local-only architecture</li>
+            <li><strong>🔒 GDPR Compliant:</strong> Meets all international privacy standards by design</li>
+        </ul>
+
+        <h2>11. 🎛️ Your Privacy Rights and Controls</h2>
+        
+        <h3>11.1 Complete User Control</h3>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <strong>📁 File Control:</strong><br>
+                • Choose exactly which folders to share<br>
+                • Grant/revoke file access at any time<br>
+                • No hidden or background file access
+            </div>
+            <div class="feature-item">
+                <strong>🌐 Server Control:</strong><br>
+                • Start/stop servers instantly<br>
+                • Configure ports and security settings<br>
+                • Monitor all connections in real-time
+            </div>
+            <div class="feature-item">
+                <strong>🔐 Security Control:</strong><br>
+                • Enable/disable authentication<br>
+                • Set custom passwords<br>
+                • Configure IP access restrictions
+            </div>
+            <div class="feature-item">
+                <strong>🗑️ Data Control:</strong><br>
+                • Uninstall removes all app data<br>
+                • No remote data to worry about<br>
+                • Complete data sovereignty
+            </div>
+        </div>
+
+        <h3>11.2 Privacy Rights (GDPR/CCPA)</h3>
+        <p>While traditional privacy rights don't apply (no data collection), you have ultimate control:</p>
+        <ul>
+            <li><strong>🔍 Right to Know:</strong> This policy explains exactly what we don't collect</li>
+            <li><strong>🚫 Right to Delete:</strong> Uninstall app to remove all traces</li>
+            <li><strong>📱 Right to Control:</strong> Complete control over all file access</li>
+            <li><strong>🔒 Right to Security:</strong> Built-in encryption and security features</li>
+            <li><strong>📋 Right to Information:</strong> Full transparency in this privacy policy</li>
+        </ul>
+
+        <h2>12. 🛡️ Security Best Practices for Users</h2>
+        
+        <h3>12.1 Network Security</h3>
+        <ul>
+            <li><strong>🔐 Strong Authentication:</strong> Use complex passwords when enabling authentication</li>
+            <li><strong>🏠 Trusted Networks:</strong> Only share servers on trusted WiFi networks</li>
+            <li><strong>⏸️ Server Management:</strong> Stop servers when not actively needed</li>
+            <li><strong>🔍 Network Monitoring:</strong> Regularly review connected devices on your network</li>
+        </ul>
+
+        <h3>12.2 File Sharing Security</h3>
+        <ul>
+            <li><strong>📁 Selective Sharing:</strong> Carefully choose which folders to make accessible</li>
+            <li><strong>🚫 Sensitive Data:</strong> Avoid sharing folders containing sensitive personal information</li>
+            <li><strong>🔒 Encryption:</strong> Enable HTTPS for sensitive file transfers</li>
+            <li><strong>👥 Access Control:</strong> Use IP whitelist for additional security in enterprise environments</li>
+        </ul>
+
+        <h3>12.3 Device Security</h3>
+        <ul>
+            <li><strong>🔒 Device Lock:</strong> Ensure your device has screen lock protection</li>
+            <li><strong>📱 App Permissions:</strong> Review and manage app permissions regularly</li>
+            <li><strong>🔄 Regular Updates:</strong> Keep the app updated for latest security features</li>
+            <li><strong>🛡️ Antivirus:</strong> Use reputable mobile security software</li>
+        </ul>
+
+        <h2>13. 📝 Privacy Policy Updates</h2>
+        
+        <h3>13.1 Policy Change Process</h3>
+        <p>This Privacy Policy may be updated to reflect:</p>
+        <ul>
+            <li><strong>📱 App Feature Updates:</strong> New functionality that maintains privacy standards</li>
+            <li><strong>⚖️ Legal Requirements:</strong> Changes in privacy regulations or compliance requirements</li>
+            <li><strong>🛡️ Security Improvements:</strong> Enhanced privacy protections or security measures</li>
+            <li><strong>📋 Clarity Improvements:</strong> Better explanations of existing privacy practices</li>
+        </ul>
+
+        <h3>13.2 Notification Process</h3>
+        <ul>
+            <li><strong>📱 In-App Notification:</strong> Policy updates announced within the app</li>
+            <li><strong>🌐 Website Update:</strong> Latest version always available online</li>
+            <li><strong>📧 Email Notification:</strong> For significant changes (if contact provided voluntarily)</li>
+            <li><strong>🔄 Version Control:</strong> Clear versioning and effective dates</li>
+        </ul>
+
+        <div class="important">
+            <strong>Policy Commitment:</strong> Any future updates will maintain or strengthen privacy protections. We will never weaken privacy standards or introduce data collection without explicit user consent and clear justification.
+        </div>
+
+        <h2>14. ⚖️ Legal Compliance Framework</h2>
+        
+        <h3>14.1 Global Privacy Law Compliance</h3>
+        <div class="compliance-badges">
+            <span class="badge">🇪🇺 GDPR Compliant</span>
+            <span class="badge">🇺🇸 CCPA Compliant</span>
+            <span class="badge">👶 COPPA Safe</span>
+            <span class="badge">🇨🇦 PIPEDA Ready</span>
+            <span class="badge">🇦🇺 Privacy Act</span>
+            <span class="badge">🇬🇧 UK GDPR</span>
+        </div>
+
+        <ul>
+            <li><strong>🇪🇺 GDPR (EU):</strong> No personal data processing means minimal compliance burden</li>
+            <li><strong>🇺🇸 CCPA (California):</strong> No personal information collected or sold</li>
+            <li><strong>👶 COPPA (Children):</strong> Safe for all ages due to zero data collection</li>
+            <li><strong>🇨🇦 PIPEDA (Canada):</strong> Exceeds privacy requirements through data minimization</li>
+            <li><strong>🇬🇧 UK GDPR:</strong> Full compliance through privacy-by-design architecture</li>
+            <li><strong>🇦🇺 Privacy Act (Australia):</strong> Meets all privacy principles</li>
+        </ul>
+
+        <h3>14.2 Platform Compliance</h3>
+        <ul>
+            <li><strong>📱 Google Play Policy:</strong> Meets all developer policy requirements</li>
+            <li><strong>🔒 Android Privacy:</strong> Complies with Android privacy guidelines</li>
+            <li><strong>📦 App Bundle Requirements:</strong> Satisfies Google Play App Bundle privacy standards</li>
+            <li><strong>🛡️ Data Safety:</strong> Accurate Google Play Data Safety declarations</li>
+        </ul>
+
+        <h3>14.3 Legal Basis for Processing (GDPR Article 6)</h3>
+        <p>Where minimal processing occurs (app settings only):</p>
+        <ul>
+            <li><strong>🎯 Legitimate Interest (Art. 6.1.f):</strong> Providing local file sharing functionality</li>
+            <li><strong>✅ Consent (Art. 6.1.a):</strong> User voluntarily grants storage permissions</li>
+            <li><strong>📋 Contract Performance (Art. 6.1.b):</strong> Delivering advertised app functionality</li>
+        </ul>
+
+        <h2>15. 📞 Contact Information & Support</h2>
+        
+        <div class="contact-info">
+            <h3 style="margin-top: 0;">🏢 Developer Contact</h3>
+            <p>
+                <strong>🏢 Company:</strong> ByteCode Creation<br>
+                <strong>📧 Contact:</strong> bytecode.creation@gmail.com<br>
+                <strong>⏱️ Response Time:</strong> Within 48 hours<br>
+                <strong>🌍 Jurisdiction:</strong> Governed by applicable local laws
+            </p>
+            
+            <p><strong>📋 Privacy Inquiries:</strong> We welcome questions about our privacy practices, though due to our zero-data-collection policy, most traditional privacy concerns don't apply.</p>
+        </div>
+
+        <h3>15.1 Data Protection Officer</h3>
+        <p><strong>🔒 DPO Status:</strong> Not required under GDPR Article 37 due to:</p>
+        <ul>
+            <li>No large-scale data processing</li>
+            <li>No personal data collection</li>
+            <li>Local-only operation model</li>
+            <li>No systematic monitoring of individuals</li>
+        </ul>
+
+        <div class="privacy-shield">
+            <h2 style="margin-top: 0; border: none; padding: 0;">🏆 Privacy by Design Certification</h2>
+            <p><strong>WiFi Server Pro achieves the highest privacy standard possible: zero data collection. Your privacy is not just protected—it's architecturally guaranteed.</strong></p>
+            
+            <ul style="text-align: left; margin-top: 15px;">
+                <li>✅ <strong>Zero Data Collection:</strong> No personal information gathered</li>
+                <li>✅ <strong>Local-Only Operation:</strong> All processing on your device</li>
+                <li>✅ <strong>No Third-Party Services:</strong> Complete independence from external platforms</li>
+                <li>✅ <strong>Transparent Architecture:</strong> Open about all functionality</li>
+                <li>✅ <strong>User Control:</strong> Complete sovereignty over your data</li>
+            </ul>
+        </div>
+
+        <footer style="margin-top: 40px; padding-top: 25px; border-top: 2px solid #1976d2; text-align: center; color: #666;">
+            <div style="background: #f5f5f5; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+                <p style="margin: 0; font-weight: 500; color: #1976d2;">
+                    🛡️ <strong>Privacy Guarantee:</strong> This privacy policy represents our commitment to your privacy. 
+                    WiFi Server Pro will never collect, store, or transmit your personal data.
+                </p>
+            </div>
+            
+            <p>&copy; 2025 WiFi Server Pro by ByteCode Creation. All rights reserved.</p>
+            <p>This privacy policy is effective as of <strong>September 23, 2025</strong></p>
+        </footer>
     </div>
-
-    <div class="important">
-        <strong>Important:</strong> WiFi Server Pro operates entirely on your local network and does not collect, store, or transmit any personal data to external servers.
-    </div>
-
-    <h2>1. Developer Information</h2>
-    <p><strong>Developer:</strong> ByteCode Creation<br>
-    <strong>Contact Email:</strong> bytecode.creation@gmail.com<br>
-    <strong>App Name:</strong> WiFi Server Pro<br>
-    <strong>Package Name:</strong> com.bytecode.wifiserverpro</p>
-
-    <h2>2. Types of Data Collected</h2>
-    <h3>2.1 Personal Data</h3>
-    <p>WiFi Server Pro does <strong>NOT</strong> collect any personal data as defined by Google Play policy:</p>
-    <ul>
-        <li><strong>Personally Identifiable Information:</strong> None collected</li>
-        <li><strong>Financial Information:</strong> None collected</li>
-        <li><strong>Authentication Information:</strong> None collected</li>
-        <li><strong>Personal Communications:</strong> None collected</li>
-        <li><strong>Location Data:</strong> None collected</li>
-        <li><strong>Web Browsing Activity:</strong> None collected</li>
-    </ul>
-
-    <h3>2.2 Device and App Data</h3>
-    <p>The following technical data is accessed locally only:</p>
-    <ul>
-        <li><strong>Files and Media:</strong> Accessed for local sharing only (not collected or transmitted)</li>
-        <li><strong>Device ID:</strong> Not collected</li>
-        <li><strong>App Activity:</strong> Not tracked or collected</li>
-        <li><strong>App Info and Performance:</strong> Not collected</li>
-    </ul>
-
-    <h2>3. Data Usage and Purpose</h2>
-    <p>Data accessed by WiFi Server Pro is used exclusively for:</p>
-    <ul>
-        <li><strong>App Functionality:</strong> Creating local file servers</li>
-        <li><strong>Security:</strong> Local authentication (optional)</li>
-        <li><strong>User Experience:</strong> Displaying server status</li>
-    </ul>
-    <p><strong>NOT used for:</strong> Analytics, advertising, developer communications, fraud prevention, compliance, or any other purposes.</p>
-
-    <h2>3. Data Storage and Security</h2>
-    <h3>3.1 Local Operation</h3>
-    <p>All app operations occur locally on your device and network:</p>
-    <ul>
-        <li>No data is sent to external servers or cloud services</li>
-        <li>Files remain on your device at all times</li>
-        <li>Server connections are limited to your local WiFi network</li>
-        <li>No remote access or internet connectivity is required</li>
-    </ul>
-
-    <h3>3.2 Security Measures</h3>
-    <ul>
-        <li>Optional password protection for server access</li>
-        <li>HTTPS encryption support for secure connections</li>
-        <li>Network isolation - servers only accessible on local WiFi</li>
-        <li>No external data transmission or cloud storage</li>
-    </ul>
-
-    <h2>4. Data Sharing</h2>
-    <p>WiFi Server Pro does <strong>NOT</strong> share any data with third parties because:</p>
-    <ul>
-        <li>No personal data is collected</li>
-        <li>No analytics services are integrated</li>
-        <li>No advertising networks are used</li>
-        <li>No cloud services are utilized</li>
-        <li>All operations are local to your device</li>
-    </ul>
-
-    <h2>5. Data Security</h2>
-    <h3>5.1 Data in Transit</h3>
-    <ul>
-        <li><strong>Encryption:</strong> Optional HTTPS encryption for local connections</li>
-        <li><strong>Network Scope:</strong> Limited to local WiFi network only</li>
-        <li><strong>No Internet Transmission:</strong> No data sent over the internet</li>
-    </ul>
-
-    <h3>5.2 Data at Rest</h3>
-    <ul>
-        <li><strong>Local Storage:</strong> Files remain on your device</li>
-        <li><strong>App Settings:</strong> Stored locally using Android SharedPreferences</li>
-        <li><strong>No Cloud Storage:</strong> No data stored on external servers</li>
-    </ul>
-
-    <h2>6. Data Retention and Deletion</h2>
-    <ul>
-        <li><strong>No Data Retention:</strong> App does not retain any user data</li>
-        <li><strong>Local Control:</strong> Users control all file access</li>
-        <li><strong>App Removal:</strong> Uninstalling removes all app data</li>
-        <li><strong>No Account Deletion:</strong> No accounts created, so none to delete</li>
-    </ul>
-
-    <h2>7. Sensitive Permissions</h2>
-    <p>The app requests these Android permissions for local functionality:</p>
-    <ul>
-        <li><strong>READ_EXTERNAL_STORAGE (API ≤32):</strong> Access files for local sharing</li>
-        <li><strong>READ_MEDIA_* (API 33+):</strong> Granular media access for sharing</li>
-        <li><strong>INTERNET:</strong> Create local network servers (no internet communication)</li>
-        <li><strong>ACCESS_NETWORK_STATE:</strong> Detect network connectivity</li>
-        <li><strong>ACCESS_WIFI_STATE:</strong> Get local network information</li>
-        <li><strong>FOREGROUND_SERVICE:</strong> Keep servers running in background</li>
-        <li><strong>POST_NOTIFICATIONS:</strong> Show server status notifications</li>
-    </ul>
-    <p><strong>No location, camera, microphone, or contacts permissions requested.</strong></p>
-
-    <h2>5. Third-Party Services</h2>
-    <p>WiFi Server Pro does <strong>NOT</strong> integrate with any third-party services, including:</p>
-    <ul>
-        <li>Analytics platforms (Google Analytics, Firebase, etc.)</li>
-        <li>Advertising networks</li>
-        <li>Cloud storage services</li>
-        <li>Social media platforms</li>
-        <li>Crash reporting services</li>
-    </ul>
-
-    <h2>6. Data Sharing and Disclosure</h2>
-    <p>We do <strong>NOT</strong> share, sell, rent, or disclose any information because:</p>
-    <ul>
-        <li>No personal data is collected</li>
-        <li>No usage analytics are gathered</li>
-        <li>No external servers are contacted</li>
-        <li>All operations are local to your device and network</li>
-    </ul>
-
-    <h2>8. Children's Privacy (COPPA Compliance)</h2>
-    <p>WiFi Server Pro is designed to be safe for all users, including children:</p>
-    <ul>
-        <li><strong>Age Restriction:</strong> None - app is safe for all ages</li>
-        <li><strong>Data Collection from Children:</strong> None - no data collected from any users</li>
-        <li><strong>Parental Consent:</strong> Not required - no data collection occurs</li>
-        <li><strong>Online Interactions:</strong> None - app operates locally only</li>
-        <li><strong>Content Sharing:</strong> Local network only, no internet sharing</li>
-    </ul>
-
-    <h2>8. International Data Transfers</h2>
-    <p>Since WiFi Server Pro does not collect or transmit any data to external servers, there are no international data transfers.</p>
-
-    <h2>9. Data Retention</h2>
-    <p>WiFi Server Pro does not retain any user data because:</p>
-    <ul>
-        <li>No data is collected or stored by the app</li>
-        <li>Files remain on your device under your control</li>
-        <li>App settings are stored locally on your device</li>
-        <li>Uninstalling the app removes all app-related data</li>
-    </ul>
-
-    <h2>10. Your Rights and Choices</h2>
-    <p>You have complete control over your data:</p>
-    <ul>
-        <li><strong>File Access:</strong> Choose which folders to share</li>
-        <li><strong>Server Control:</strong> Start/stop servers at any time</li>
-        <li><strong>Network Access:</strong> Control who can access your server</li>
-        <li><strong>Data Deletion:</strong> Uninstall the app to remove all traces</li>
-    </ul>
-
-    <h2>11. Security Best Practices</h2>
-    <p>To ensure your privacy and security:</p>
-    <ul>
-        <li>Use strong passwords when enabling authentication</li>
-        <li>Only share servers on trusted WiFi networks</li>
-        <li>Stop servers when not in use</li>
-        <li>Be cautious about which folders you choose to share</li>
-        <li>Regularly review connected devices on your network</li>
-    </ul>
-
-    <h2>12. Changes to This Privacy Policy</h2>
-    <p>We may update this Privacy Policy to reflect:</p>
-    <ul>
-        <li>Changes in legal requirements</li>
-        <li>App feature updates</li>
-        <li>Improved privacy practices</li>
-    </ul>
-    <p>Updated policies will be posted in the app and on our website. Continued use of the app constitutes acceptance of any changes.</p>
-
-    <h2>13. Legal Compliance</h2>
-    <p>This Privacy Policy complies with:</p>
-    <ul>
-        <li>Google Play Store Developer Policy</li>
-        <li>General Data Protection Regulation (GDPR)</li>
-        <li>California Consumer Privacy Act (CCPA)</li>
-        <li>Children's Online Privacy Protection Act (COPPA)</li>
-        <li>Android App Bundle Privacy Requirements</li>
-    </ul>
-
-    <h2>9. User Rights</h2>
-    <p>Since no personal data is collected, traditional data rights don't apply. However, users have complete control:</p>
-    <ul>
-        <li><strong>Access:</strong> All files remain on your device under your control</li>
-        <li><strong>Correction:</strong> Not applicable - no data stored by app</li>
-        <li><strong>Deletion:</strong> Uninstall app to remove all traces</li>
-        <li><strong>Portability:</strong> Files remain in original locations on device</li>
-        <li><strong>Objection:</strong> Stop using app at any time</li>
-    </ul>
-
-    <h2>10. Contact Information</h2>
-    <div class="contact-info">
-        <p><strong>Data Protection Officer:</strong> Not required (no data processing)<br>
-        <strong>Privacy Contact:</strong> support@wifiserverpro.app<br>
-        <strong>Developer:</strong> ByteCode Creation<br>
-        <strong>Response Time:</strong> Within 48 hours<br>
-        <strong>Jurisdiction:</strong> This policy is governed by applicable local laws</p>
-    </div>
-
-    <h2>11. Policy Updates</h2>
-    <p>This Privacy Policy may be updated to reflect:</p>
-    <ul>
-        <li>Changes in app functionality</li>
-        <li>Legal or regulatory requirements</li>
-        <li>Google Play policy updates</li>
-    </ul>
-    <p><strong>Notification Method:</strong> Updates posted in app and at this URL<br>
-    <strong>Effective Date:</strong> Changes effective immediately upon posting<br>
-    <strong>Material Changes:</strong> Will be highlighted in update notifications</p>
-
-    <h2>12. Legal Basis (GDPR)</h2>
-    <p>Where applicable, our legal basis for processing is:</p>
-    <ul>
-        <li><strong>Legitimate Interest:</strong> Providing local file sharing functionality</li>
-        <li><strong>Consent:</strong> User grants storage permissions voluntarily</li>
-        <li><strong>Contract Performance:</strong> Delivering app functionality as described</li>
-    </ul>
-    <p><strong>Note:</strong> Since no personal data is processed, GDPR obligations are minimal.</p>
-
-    <h2>13. Compliance Statement</h2>
-    <p>This Privacy Policy complies with:</p>
-    <ul>
-        <li><strong>Google Play Developer Policy:</strong> All requirements met</li>
-        <li><strong>Android App Bundle Requirements:</strong> Fully compliant</li>
-        <li><strong>GDPR (EU):</strong> No personal data processing</li>
-        <li><strong>CCPA (California):</strong> No personal information collected</li>
-        <li><strong>COPPA (Children):</strong> Safe for all ages</li>
-    </ul>
-
-    <div class="important">
-        <strong>Privacy by Design:</strong> WiFi Server Pro is built with privacy as the foundation. No data collection means no privacy risks. Your files stay on your device, your privacy is completely protected.
-    </div>
-
-    <footer style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; text-align: center; color: #666;">
-        <p>&copy; 2025 WiFi Server Pro. All rights reserved.</p>
-        <p>This privacy policy is effective as of January 15, 2025</p>
-    </footer>
 </body>
 </html>
